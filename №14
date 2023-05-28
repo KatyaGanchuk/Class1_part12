@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+double l,r,s, pi = 3.14;
+	cout << "Input number l ";
+	cin >> l;
+	r = l/(2*pi);
+	s = pi*r*r;
+	cout << "R" << r << endl;
+	cout << "Ps" << s;
+}
